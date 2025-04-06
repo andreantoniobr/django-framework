@@ -127,6 +127,22 @@ Acesse: [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin) e entre com o
 
 ---
 
+### ✅ 10. Gerar Requirements.txt
+
+```bash
+pip freeze
+```
+
+Use o comando ```pip freeze``` para obter uma lista de todos pacotes utilizados no seu ambiente virtual e salve a saída no arquivo requirements.txt.
+
+```bash
+pip install -r requirements.txt
+```
+
+Usando ```pip install -r requirements.txt``` em um ambiente virtual novo, você conseguirá reinstalar todos pacotes necessários ao seu projeto (nas versões corretas inclusive).
+
+---
+
 ## 📌 Entrega da Atividade
 
 - O admin deve mostrar os 3 modelos cadastrados.
